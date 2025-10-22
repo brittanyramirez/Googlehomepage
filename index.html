@@ -1,0 +1,35 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Google Project</title>
+  <link rel="stylesheet" href="style.css" />
+   <script src="google.js" defer></script>
+</head>
+<body>
+  <!-- Header; this is my nav bar-->
+  <header>
+    <nav>
+      <a href="https://workspace.google.com/intl/en-US/gmail/">Gmail</a>
+      <a href="https://www.google.com/imghp?hl=en&tab=ri&ogbl">Image</a>
+    </nav>
+  </header>
+
+  <!-- Main Content-->
+  <main>
+    <h1 id="coloredText">
+        <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+    </h1>
+<!-- this is forming the search bar-->
+    <div class="search-container">
+      <input type="text" id="searchBar" placeholder="Search Google or type a URL" />
+      <div class="buttons">
+        <button onclick="googleSearch()">Google Search</button>
+        <button onclick="luckyButton()">I'm Feeling Lucky</button>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
